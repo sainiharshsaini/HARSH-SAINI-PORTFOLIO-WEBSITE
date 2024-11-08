@@ -11,10 +11,10 @@ const EducationDetail = ({ CourseName, InstituteWebsite, InstituteName, CourseTi
                         {InstituteName}
                     </Link>
                 </h3>
-                <span className='text-lg font-medium text-lightTextSecondary dark:text-darkTextSecondary'>
+                <span className='text-base md:text-lg font-medium text-lightTextSecondary dark:text-darkTextSecondary'>
                     <i className="fa-solid fa-clock"></i> {CourseTimestamp}
                 </span>
-                <span className='text-lg font-medium text-lightTextSecondary dark:text-darkTextSecondary'>
+                <span className='text-base md:text-lg font-medium text-lightTextSecondary dark:text-darkTextSecondary'>
                     <i className="fa-solid fa-location-dot text-red-600"></i> {InstituteLocation}
                 </span>
             </div>

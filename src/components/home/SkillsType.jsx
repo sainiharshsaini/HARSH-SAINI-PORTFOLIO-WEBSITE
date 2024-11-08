@@ -8,7 +8,7 @@ const SkillsType = ({ skillType, techType }) => {
             <span className='text-sm font-semibold text-foreground'>{skillType}</span>
             <div className='mt-2 flex flex-wrap gap-4 text-xl'>
                 {
-                    techType.map(e => <TechType key={e.id} tech={e.techName} techIcon={e.icon}/>)
+                    techType.map(e => <TechType key={e.id} tech={e.techName} techIcon={e.icon} />)
                 }
             </div>
         </section>

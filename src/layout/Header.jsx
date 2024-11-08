@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header className='sticky mx-auto wrapper top-0 z-50 flex items-center gap-2 p-5 w-full lg:px-20 text-lightTextPrimary dark:text-darkTextPrimary'>
-      <div className='flex flex-col w-full shadow-lg ring-1 ring-slate-200 dark:ring-slate-800 p-5 gap-5 rounded-2xl md:px-10 backdrop-blur-lg' style={{ opacity: 1, willChange: 'auto', transform: 'none' }}>
+      <div className='flex flex-col w-full shadow-lg ring-1 ring-slate-200 dark:ring-slate-800 p-5 gap-5 rounded-2xl md:px-10 backdrop-blur-md' style={{ opacity: 1, willChange: 'auto', transform: 'none' }}>
         <div className='flex w-full justify-between mx-auto'>
           <Link className='flex items-center gap-2 cursor-pointer' to="/">
             <img className='size-14 rounded-full' style={{ color: 'transparent' }} loading='lazy' decoding='async' width={300} height={200} src={HarshProfile} alt="HarshProfile" />
@@ -43,7 +43,7 @@ const Header = () => {
           </ul>
 
           <div className='flex gap-6'>
-            <ThemeToggle/>
+            <ThemeToggle />
             {/* Mobile Menu Toggle Icon */}
             <button className='text-blue-600 md:hidden' onClick={toggleMenuHandler}>
               {isMenuOpen ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="size-10">

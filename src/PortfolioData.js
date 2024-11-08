@@ -1,14 +1,18 @@
 import countryImg from './assets/projectImages/countryImg.png'
 import PortfolioImg from './assets/projectImages/HarshPortfolio.png'
 
-import htmlIcon from './assets/icons/HTML_icon.svg'
-import cssIcon from './assets/icons/CSS_icon.svg'
-import jsIcon from './assets/icons/JS_icon.svg'
-import reactIcon from './assets/icons/React_icon.svg'
-import bootstrapIcon from './assets/icons/Bootstrap_icon.svg'
-import nodeIcon from './assets/icons/Node_icon.svg'
-import expressIcon from './assets/icons/Express_icon.svg'
-import mongodbIcon from './assets/icons/MongoDB_icon.svg'
+import HtmlIcon from './assets/icons/icons8-html-48.png'
+import CssIcon from './assets/icons/icons8-css-48.png'
+import JsIcon from './assets/icons/icons8-javascript-48.png'
+import ReactIcon from './assets/icons/icons8-react-js-48.png'
+import ExpressIcon from './assets/icons/icons8-express-js-40.png'
+import NodeIcon from './assets/icons/icons8-node-js-48.png'
+import MongoDBIcon from './assets/icons/icons8-mongodb-48.png'
+import TypescriptIcon from './assets/icons/icons8-typescript-48.png'
+import TailwindCSSIcon from './assets/icons/icons8-tailwind-css-48.png'
+import SassIcon from './assets/icons/icons8-sass-48.png'
+import MySQLIcon from './assets/icons/icons8-mysql-48.png'
+import PythonIcon from './assets/icons/icons8-python-48.png'
 
 export default [
     {
@@ -19,19 +23,19 @@ export default [
         techUsed: [
             {
                 id: crypto.randomUUID(),
-                icon: htmlIcon,
+                icon: HtmlIcon,
             },
             {
                 id: crypto.randomUUID(),
-                icon: cssIcon,
+                icon: CssIcon,
             },
             {
                 id: crypto.randomUUID(),
-                icon: jsIcon,
+                icon: JsIcon,
             },
             {
                 id: crypto.randomUUID(),
-                icon: reactIcon,
+                icon: ReactIcon,
             },
         ],
         deployLink: 'https://countriesappbyharsh.netlify.app/',
@@ -45,22 +49,26 @@ export default [
         techUsed: [
             {
                 id: crypto.randomUUID(),
-                icon: htmlIcon,
+                icon: HtmlIcon,
             },
             {
                 id: crypto.randomUUID(),
-                icon: cssIcon,
+                icon: CssIcon,
             },
             {
                 id: crypto.randomUUID(),
-                icon: jsIcon,
+                icon: JsIcon,
             },
             {
                 id: crypto.randomUUID(),
-                icon: reactIcon,
+                icon: ReactIcon,
+            },
+            {
+                id: crypto.randomUUID(),
+                icon: TailwindCSSIcon,
             },
         ],
         deployLink: 'https://www.harshsaini.tech/',
-        githubLink: 'https://github.com/sainiharshsaini/HARSH-SAINI-TECH',
+        githubLink: 'https://github.com/sainiharshsaini/HARSH-SAINI-PORTFOLIO-WEBSITE',
     },
 ]

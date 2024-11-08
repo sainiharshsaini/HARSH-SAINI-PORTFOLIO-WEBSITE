@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react'
 
 const ThemeToggle = () => {
-    // Check if "dark-mode" is in local storage on initial load
 
+    // Check if "dark-mode" is in local storage on initial load
     const [theme, setTheme] = useState(
         localStorage.getItem('theme') === 'dark' ? 'dark' : 'light'
     )
 
     // Set dark or light mode in localStorage and add class to html tag
-
     const toggleTheme = () => {
         const newTheme = theme === 'light' ? 'dark' : 'light'
         setTheme(newTheme)

@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import HarshResume from '../../assets/HarshResume.png' 
+import HarshResume from '../../assets/HarshResume.png'
 
 const AboutIntro = () => {
     return (
         <section className='flex justify-center items-center px-8 py-12 md:py-20 text-lightTextPrimary dark:text-darkTextPrimary'>
             <div className='flex flex-col justify-between items-center gap-12 md:gap-20'>
-                <h1 className='text-3xl font-medium text-blue-700 md:text-5xl lg:text-8xl lg:font-bold'>ABOUT ME</h1>
+                <h1 className='text-3xl font-bold text-blue-700 md:text-5xl lg:text-8xl'>ABOUT ME</h1>
                 <p className='text-base md:w-3/4 lg:text-lg pl-2'>
                     As a Passionate <b>Full Stack Web Developer</b>, I thrive on building intuitive, efficient, and scalable <b>Web Applications</b> that make a real impact. With expertise in both <span className='text-blue-600'>frontend</span> and <span className='text-blue-600'>backend</span> development, I bring ideas to life using modern technologies. Whether it's creating seamless user interfaces or designing robust server-side logic.
                     <br /><br />
@@ -16,9 +16,9 @@ const AboutIntro = () => {
                     <br /><br />
                     Let’s build something amazing together!
                 </p>
-                <div className='flex justify-between items-center gap-8 md:gap-12 mt-4 w-full md:w-3/5 lg:w-2/5'>
-                    <Link className='bg-gradient-to-b from-blue-400 to-blue-800 w-1/2 text-center text-white rounded-md py-4 px-8 text-base md:text-lg md:font-medium transition ease-in-out hover:-translate-x-0.5 hover:scale-110 duration-300' to={HarshResume} target="_blank" download>Resume <i className="fa-solid fa-download"></i></Link>
-                    <Link className='bg-gradient-to-b from-blue-400 to-blue-800 w-1/2 text-center text-white rounded-md py-4 px-8 text-base md:text-lg md:font-medium transition ease-in-out hover:-translate-x-0.5 hover:scale-110 duration-300' to="/contact">Contact me!</Link>
+                <div className='flex justify-between items-center gap-6 md:gap-12 mt-4 w-full md:w-3/5 lg:w-2/5'>
+                    <Link className='bg-gradient-to-b from-blue-400 to-blue-800 w-1/2 text-center text-white rounded-md p-4 text-base md:text-lg md:font-medium transition ease-in-out hover:-translate-x-0.5 hover:scale-110 duration-300' to={HarshResume} target="_blank" download>Resume <i className="fa-solid fa-download"></i></Link>
+                    <Link className='bg-gradient-to-b from-blue-400 to-blue-800 w-1/2 text-center text-white rounded-md p-4 text-base md:text-lg md:font-medium transition ease-in-out hover:-translate-x-0.5 hover:scale-110 duration-300' to="/contact">Contact me!</Link>
                 </div>
             </div>
         </section>

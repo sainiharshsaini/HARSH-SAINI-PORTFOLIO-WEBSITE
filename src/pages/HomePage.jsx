@@ -7,7 +7,7 @@ import HomeSkills from "../components/home/HomeSkills"
 const HomePage = () => {
   return (
     <>
-      <HomeHero/>
+      <HomeHero />
       <HomeSkills />
       {/* <HomeProjects /> */}
     </>
