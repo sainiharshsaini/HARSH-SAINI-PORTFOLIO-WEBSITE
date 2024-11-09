@@ -9,10 +9,12 @@ import AboutPage from "./pages/AboutPage"
 import ProjectsPage from "./pages/ProjectsPage"
 import ContactPage from "./pages/ContactPage"
 import ErrorPage from "./pages/ErrorPage"
+import ScrollToTop from "./layout/ScrollToTop"
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
